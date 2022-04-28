@@ -521,7 +521,7 @@ const householdByType = asyncHandler(async (req, res) => {
   await Data.push(
     calculateObj(
       `${Result['Region']} Non Family`,
-      Result['NonFamilyTotalhouseholds'],
+      Result['NonfamilyTotalhouseholds'],
       Result['NonfamilyAveragehouseholdsize'],
       Result['NonfamilyAveragefamilysize'],
       Result['NonfamilyOwned']
